@@ -1,8 +1,8 @@
 function startGame() {
     let response = "";
     let answer = prompt("How old do you think I am?");
-      if (response === null) {
-        response = "come on dont be shy!"
+      if (answer === null) {
+        response = "come on don't be shy!"
       } else if (answer < 100 ) {
         response = "I'm flattered!";
       } else if (answer == 100 ) {
