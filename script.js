@@ -6,7 +6,7 @@ function startGame() {
       } else if (answer < 100 ) {
         response = "I'm much obliged!";
       } else if (answer == 100 ) {
-        response = "You guessed correctly!";
+        response = "You guessed correctly! Would you like to share some of these leaves with me?";
       } else if (answer > 100 ) {
         response = "I'm highly offended!";
       }
